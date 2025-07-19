@@ -5,7 +5,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden p-4">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
@@ -18,7 +18,7 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container my-32 mx-auto px-4 text-center">
+      <div className="relative z-10 container my-32 mx-auto px-2 text-center">
         <div className="max-w-4xl  mx-auto animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-tight uppercase font-black">
             Encontre Seu
@@ -53,22 +53,34 @@ export function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
             <div className="text-center animate-fade-in-up">
-              <div className="text-4xl font-bold text-luxury mb-2">15+</div>
-              <div className="text-background/80">Anos de Experiência</div>
+              <div className="text-4xl font-extrabold text-luxury mb-2">
+                15+
+              </div>
+              <div className="text-white uppercase font-bold">
+                Anos de Experiência
+              </div>
             </div>
             <div
               className="text-center animate-fade-in-up"
               style={{ animationDelay: "0.2s" }}
             >
-              <div className="text-4xl font-bold text-luxury mb-2">2.5K+</div>
-              <div className="text-background/80">Imóveis Vendidos</div>
+              <div className="text-4xl font-extrabold text-luxury mb-2">
+                2.5K+
+              </div>
+              <div className="text-white uppercase font-bold">
+                Imóveis Vendidos
+              </div>
             </div>
             <div
               className="text-center animate-fade-in-up"
               style={{ animationDelay: "0.4s" }}
             >
-              <div className="text-4xl font-bold text-luxury mb-2">98%</div>
-              <div className="text-background/80">Clientes Satisfeitos</div>
+              <div className="text-4xl font-extrabold text-luxury mb-2">
+                98%
+              </div>
+              <div className="text-white uppercase font-bold">
+                Clientes Satisfeitos
+              </div>
             </div>
           </div>
         </div>
@@ -77,14 +89,14 @@ export function HeroSection() {
         <PropertySearch />
 
         {/* Trust Indicators */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-12 opacity-80">
-          <div className="flex items-center text-background/70">
-            <Users className="w-5 h-5 mr-2" />
-            <span className="text-sm">Mais de 10.000 clientes atendidos</span>
+        <div className="flex flex-wrap justify-center items-center gap-8 mt-12">
+          <div className="flex items-center text-white font-medium">
+            <Users className="w-8 h-8 mr-2" />
+            <span className="text-md">Mais de 10.000 clientes atendidos</span>
           </div>
-          <div className="flex items-center text-background/70">
-            <Award className="w-5 h-5 mr-2" />
-            <span className="text-sm">Prêmio Melhor Imobiliária 2023</span>
+          <div className="flex items-center text-white font-medium">
+            <Award className="w-8 h-8 mr-2" />
+            <span className="text-md">Prêmio Melhor Imobiliária 2023</span>
           </div>
         </div>
       </div>
