@@ -56,7 +56,7 @@ export function HeroSection() {
               <div className="text-4xl font-extrabold text-luxury mb-2">
                 15+
               </div>
-              <div className="text-white uppercase font-extrabold">
+              <div className="text-white uppercase font-bold">
                 Anos de Experiência
               </div>
             </div>
@@ -67,7 +67,7 @@ export function HeroSection() {
               <div className="text-4xl font-extrabold text-luxury mb-2">
                 2.5K+
               </div>
-              <div className="text-white uppercase font-extrabold">
+              <div className="text-white uppercase font-bold">
                 Imóveis Vendidos
               </div>
             </div>
@@ -78,7 +78,7 @@ export function HeroSection() {
               <div className="text-4xl font-extrabold text-luxury mb-2">
                 98%
               </div>
-              <div className="text-white uppercase font-extrabold">
+              <div className="text-white uppercase font-bold">
                 Clientes Satisfeitos
               </div>
             </div>
