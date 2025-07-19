@@ -89,14 +89,14 @@ export function HeroSection() {
         <PropertySearch />
 
         {/* Trust Indicators */}
-        <div className="flex flex-wrap justify-center items-center gap-8 mt-12 opacity-80">
-          <div className="flex items-center text-background/70">
-            <Users className="w-5 h-5 mr-2" />
-            <span className="text-sm">Mais de 10.000 clientes atendidos</span>
+        <div className="flex flex-wrap justify-center items-center gap-8 mt-12">
+          <div className="flex items-center text-white font-medium">
+            <Users className="w-8 h-8 mr-2" />
+            <span className="text-md">Mais de 10.000 clientes atendidos</span>
           </div>
-          <div className="flex items-center text-background/70">
-            <Award className="w-5 h-5 mr-2" />
-            <span className="text-sm">Prêmio Melhor Imobiliária 2023</span>
+          <div className="flex items-center text-white font-medium">
+            <Award className="w-8 h-8 mr-2" />
+            <span className="text-md">Prêmio Melhor Imobiliária 2023</span>
           </div>
         </div>
       </div>

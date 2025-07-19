@@ -10,6 +10,7 @@ Segue abaixo os problemas identificados na versão mobile do website a serem cor
 - [x] Título ajustado para letras maiúsculas (`uppercase`) e com peso tipográfico mais forte (`font-black`), garantindo maior destaque e hierarquia visual;
 - [x] Melhorar o contraste do botão "Assistir Tour virtual";
 - [x] Melhorar o contraste com o BG dos textos na seção de Stats;
+- [x] Maior destaque para os 'Trust Indicators', ajustando sua hierarquia visual;
 - [ ] Aumentar o `margin` geral nas seções da versão mobile (há pouco espaço entre os elementos e as bordas);
 - [ ] Reduzir a largura dos botões "Buscar Imóveis" e "Filtros Avançados" — estão ultrapassando o card;
 - [x] Ajustar o botão de seta — está sobrepondo o texto "Mais de 10.000 clientes atendidos";
