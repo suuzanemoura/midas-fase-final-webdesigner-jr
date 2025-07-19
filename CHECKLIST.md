@@ -11,7 +11,8 @@ Segue abaixo os problemas identificados na versão mobile do website a serem cor
 - [x] Melhorar o contraste do botão "Assistir Tour virtual";
 - [x] Melhorar o contraste com o BG dos textos na seção de Stats;
 - [x] Maior destaque para os 'Trust Indicators', ajustando sua hierarquia visual;
-- [ ] Aumentar o `margin` geral nas seções da versão mobile (há pouco espaço entre os elementos e as bordas);
-- [ ] Reduzir a largura dos botões "Buscar Imóveis" e "Filtros Avançados" — estão ultrapassando o card;
+- [x] Reduzir o `padding`dos botões "Buscar Imóveis" e "Filtros Avançados" — estão ultrapassando o card;
+- [x] Ajustar a hierarquia visual do 'Propriety Search';
 - [x] Ajustar o botão de seta — está sobrepondo o texto "Mais de 10.000 clientes atendidos";
+- [ ] Aumentar o `margin` geral nas seções da versão mobile (há pouco espaço entre os elementos e as bordas);
 - [ ] Corrigir o espaçamento inferior do texto "Prêmio Melhor Imobiliária 2023" (adicionar `margin-bottom`).
