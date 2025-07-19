@@ -20,7 +20,7 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container my-32 mx-auto px-4 text-center">
         <div className="max-w-4xl  mx-auto animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-background mb-6 leading-tight uppercase font-black">
             Encontre Seu
             <span className="block bg-gradient-luxury bg-clip-text text-transparent">
               Lar Perfeito
