@@ -11,31 +11,48 @@ export function Header() {
               <Home className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">
+              <h1 className="text-lg md:text-xl font-bold text-foreground">
                 Premium<span className="text-primary">Imóveis</span>
               </h1>
-              <p className="text-xs text-muted-foreground">Sua casa dos sonhos</p>
+              <p className="text-xs text-muted-foreground">
+                Sua casa dos sonhos
+              </p>
             </div>
           </div>
-          
+
           <nav className="hidden md:flex items-center space-x-6">
-            <a href="#" className="text-foreground hover:text-primary transition-colors font-medium">
+            <a
+              href="#"
+              className="text-foreground hover:text-primary transition-colors font-medium"
+            >
               Início
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Comprar
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Alugar
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Sobre
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
               Contato
             </a>
           </nav>
-          
+
           <div className="flex items-center space-x-3">
             <div className="hidden lg:flex items-center space-x-4 text-sm">
               <div className="flex items-center text-muted-foreground">
@@ -47,11 +64,17 @@ export function Header() {
                 contato@premiumimoveis.com
               </div>
             </div>
-            <Button variant="outline" size="sm">
+            <Button
+              variant="outline"
+              size="sm"
+            >
               <User className="w-4 h-4 mr-2" />
               Login
             </Button>
-            <Button variant="premium" size="sm">
+            <Button
+              variant="premium"
+              size="sm"
+            >
               Anunciar
             </Button>
           </div>
